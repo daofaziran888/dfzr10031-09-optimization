@@ -6,6 +6,7 @@ const Dimension = () => import('@/views/dimension/index.vue')
 const Dataset = () => import('@/views/dataset/index.vue')
 const Experiment = () => import('@/views/experiment/index.vue')
 const QueryBuilder = () => import('@/views/query_builder/index.vue')
+const InventoryTimeline = () => import('@/views/inventory_timeline/index.vue')
 const Dashboard = () => import('@/views/dashboard/index.vue')
 const Chart = () => import('@/views/chart/index.vue')
 const DataService = () => import('@/views/data_service/index.vue')
@@ -29,6 +30,7 @@ const router = createRouter({
     { path: '/dataset', name: 'dataset', component: Dataset },
     { path: '/experiment', name: 'experiment', component: Experiment },
     { path: '/query_builder', name: 'query_builder', component: QueryBuilder },
+    { path: '/inventory_timeline', name: 'inventory_timeline', component: InventoryTimeline },
     { path: '/dashboard', name: 'dashboard', component: Dashboard },
     { path: '/chart', name: 'chart', component: Chart },
     { path: '/data_service', name: 'data_service', component: DataService },
